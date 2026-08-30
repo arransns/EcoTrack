@@ -140,4 +140,19 @@ EcoTrack/
 ├── CHANGELOG.md
 ├── SECURITY.md
 ├── CONTRIBUTING.md
-└── .gitignore
+├── .gitignore
+│
+├── assets/
+│   ├── images/
+│   │   └── README.md
+│   ├── icons/
+│   │   └── README.md
+│   └── preview/
+│       └── README.md
+│
+├── docs/
+│   ├── PROJECT.md
+│   └── ROADMAP.md
+│
+└── public/
+    └── README.md
