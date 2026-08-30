@@ -1,0 +1,115 @@
+# ============================================================
+# EcoTrack - Git Ignore
+# ============================================================
+
+# Operating System
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# IDE / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*.old
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-cache/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Build Output
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# Laravel / PHP
+/vendor/
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+.phpunit.result.cache
+
+# Composer
+composer.phar
+
+# Testing
+coverage/
+.phpunit.cache/
+
+# Local Databases
+*.sqlite
+*.sqlite3
+database/database.sqlite
+
+# Local Development
+*.local
+.local/
+tmp/
+temp/
+
+# Deployment
+.netlify/
+.vercel/
+
+# Sensitive Files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Keep important public project files
+!index.html
+!404.html
+!README.md
+!LICENSE
+!CHANGELOG.md
+!SECURITY.md
+!CONTRIBUTING.md
